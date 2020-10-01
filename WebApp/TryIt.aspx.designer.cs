@@ -11,16 +11,25 @@ namespace WebApp
 {
 
 
-    public partial class SiteMaster
+    public partial class About
     {
 
         /// <summary>
-        /// MainContent control.
+        /// UrlTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.TextBox UrlTextBox;
+
+        /// <summary>
+        /// Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Result;
     }
 }

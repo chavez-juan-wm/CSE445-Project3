@@ -67,5 +67,9 @@
 
         <h1>Isaiah&#39;s Services:</h1>
     </form>
+
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/myScripts.js"></script>
 </body>
 </html>

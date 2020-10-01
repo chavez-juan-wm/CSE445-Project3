@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\myScripts.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Styles\bootstrap.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Web.config" />

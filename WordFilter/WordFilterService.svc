@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="WordFilter.Service1" CodeBehind="WordFilterService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WordFilter.WordFilterService" CodeBehind="WordFilterService.svc.cs" %>

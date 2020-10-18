@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top10Words", "Top10Words\Top10Words.csproj", "{1EDE788C-54AF-4B06-B1F1-22709CA2FA3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top10WordsService", "Top10Words\Top10WordsService.csproj", "{1EDE788C-54AF-4B06-B1F1-22709CA2FA3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stemming", "Stemming\Stemming.csproj", "{90457430-1747-494D-8C33-613AAB58956A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StemmingService", "Stemming\StemmingService.csproj", "{90457430-1747-494D-8C33-613AAB58956A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{B20C1674-2C3F-4038-B0C2-5223534DE737}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1EDE788C-54AF-4B06-B1F1-22709CA2FA3F} = {1EDE788C-54AF-4B06-B1F1-22709CA2FA3F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService", "StorageService\StorageService.csproj", "{B7044776-859A-4576-8ECA-57FB03A1A1C8}"
 EndProject

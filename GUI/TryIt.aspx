@@ -14,7 +14,7 @@
 
         <h3>Top10Words Service</h3>
         <div class="row">
-                <div class="col-md-6">          
+                <div class="col-md-4">          
                 <p>
                     <b>Description:</b> Analyze the webpage at a given url and return the ten 
                     most-frequently occurred words in the webpage. Return the words in the descending 
@@ -27,16 +27,17 @@
 
                     <p>
                         <b>Output:</b> An array of strings that contains the ten most-frequently occurred
-                        words in descending order of their frequencies. You must remove those items that are
-                        not semantic words, such as the element tag names and attribute names quoted in angle 
-                        brackets < … >, if the string represents an XML page or HTML source page.
+                        words in descending order of their frequencies.
                     </p>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-8">
 
-                <asp:TextBox ID="UrlTextBox" runat="server" Width="170px"></asp:TextBox>
-                <asp:Label ID="Result" runat="server" Text="Result"></asp:Label>
+                <asp:TextBox ID="UrlTextBox" placeholder="http://www.example.com/index.html" runat="server" Width="697px"></asp:TextBox>
+                <asp:Button ID="submit" CssClass="btn btn-primary" runat="server" Text="Submit" OnClick="submit_Click" />
+                <br /><br />
+                <p>Result: </p><br />
+                <asp:Label ID="Result" runat="server"></asp:Label>
 
             </div>
         </div>

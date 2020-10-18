@@ -76,6 +76,16 @@
     <None Include="Connected Services\StorageServiceRef\StorageService1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\Top10WordsServiceRef\Top10words.wsdl" />
+    <None Include="Connected Services\Top10WordsServiceRef\Top10Words.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Top10WordsServiceRef\Top10Words1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Top10WordsServiceRef\Top10Words2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\WordFilterServiceRef\configuration91.svcinfo" />
     <None Include="Connected Services\WordFilterServiceRef\configuration.svcinfo" />
     <None Include="Connected Services\WordFilterServiceRef\Reference.svcmap">
@@ -88,7 +98,14 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <Content Include="TryIt.aspx" />
+    <None Include="Connected Services\Top10WordsServiceRef\configuration91.svcinfo" />
+    <None Include="Connected Services\Top10WordsServiceRef\configuration.svcinfo" />
+    <None Include="Connected Services\Top10WordsServiceRef\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="TryItChavez.aspx" />
+    <Content Include="TryItBoblett.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\myScripts.js" />
@@ -102,17 +119,29 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\Top10WordsServiceRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\WordFilterServiceRef\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="TryIt.aspx.cs">
-      <DependentUpon>TryIt.aspx</DependentUpon>
+    <Compile Include="TryItChavez.aspx.cs">
+      <DependentUpon>TryItChavez.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TryIt.aspx.designer.cs">
-      <DependentUpon>TryIt.aspx</DependentUpon>
+    <Compile Include="TryItChavez.aspx.designer.cs">
+      <DependentUpon>TryItChavez.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TryItBoblett.aspx.cs">
+      <DependentUpon>TryItBoblett.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TryItBoblett.aspx.designer.cs">
+      <DependentUpon>TryItBoblett.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -137,6 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\StorageServiceRef\" />
+    <WCFMetadataStorage Include="Connected Services\Top10WordsServiceRef\" />
     <WCFMetadataStorage Include="Connected Services\WordFilterServiceRef\" />
   </ItemGroup>
   <ItemGroup>

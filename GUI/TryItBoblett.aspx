@@ -26,9 +26,11 @@
                 <p><b>Output:</b> A string with the stop words removed.<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                 </p>
                 <p>
-                    <asp:FileUpload ID="FileUpload1" runat="server" Width="398px" />
-                    <asp:Button ID="FileUploadSubmit" runat="server" OnClick="FileUploadSubmit_Click1" Text="Upload" />
-                    <asp:Label ID="UploadStatusLabel" runat="server"></asp:Label>
+                    <asp:TextBox ID="WordFilterTxtBox" runat="server" Width="178px"></asp:TextBox>
+                    <asp:Button ID="WordFilterBtn" runat="server" Height="22px" Text="Filter" Width="51px" OnClick="WordFilterBtn_Click" />
+                </p>
+                <p>
+                    <asp:Label ID ="WordFilterLabel" runat="server"></asp:Label>
                 </p>
                 
             </div>
@@ -47,11 +49,9 @@
                 <p><b>Input:</b> file name with local path</p>
                 <p><b>Output:</b> URL of the file in the server.</p>
                 <p>
-                    <asp:TextBox ID="WordFilterTxtBox" runat="server" Width="178px"></asp:TextBox>
-                    <asp:Button ID="WordFilterBtn" runat="server" Height="22px" Text="Filter" Width="51px" OnClick="WordFilterBtn_Click" />
-                </p>
-                <p>
-                    <asp:Label ID ="WordFilterLabel" runat="server"></asp:Label>
+                    <asp:FileUpload ID="FileUpload1" runat="server" Width="398px" />
+                    <asp:Button ID="FileUploadSubmit" runat="server" OnClick="FileUploadSubmit_Click1" Text="Upload" />
+                    <asp:Label ID="UploadStatusLabel" runat="server"></asp:Label>
                 </p>
                 
             </div>
